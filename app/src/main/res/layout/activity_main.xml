@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_36dp"
+
+        tools:context="com.example.android.hoopsmusic.MainActivity">
+
+
+        <Button
+            android:id="@+id/discover_button"
+            style="@style/buttons"
+            android:background="@drawable/mybutton"
+            android:text="@string/button_discover"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/playlist_button"
+            style="@style/buttons"
+            android:background="@drawable/mybutton"
+            android:text="@string/button_playlist"
+            android:textAllCaps="true" />
+
+
+        <Button
+            android:id="@+id/nowplaying_button"
+            style="@style/buttons"
+            android:background="@drawable/mybutton"
+            android:text="@string/button_now_playing"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/radio_button"
+            style="@style/buttons"
+            android:background="@drawable/mybutton"
+            android:text="@string/button_radio"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/main_description"
+            style="@style/descriptions"
+            android:background="@drawable/backtextview"
+            android:text="@string/description_main"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/main_app_structure"
+            style="@style/descriptions"
+            android:background="@drawable/backtextview"
+            android:text="@string/description_main_structure"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

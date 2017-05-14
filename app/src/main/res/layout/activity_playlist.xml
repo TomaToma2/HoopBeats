@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.hoopsmusic.PlaylistActivity"
+    android:background="@drawable/gradient"
+    android:fillViewport="true"
+    android:id="@+id/activity_playlist">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/playlist_description"
+            style="@style/descriptions"
+            android:background="@drawable/backtextview"
+            android:text="@string/description_playlist"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/add_new_beat"
+            style="@style/playlistTextView"
+            android:background="@drawable/backtextview"
+            android:text="@string/playlist_add"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/playlist_1"
+            style="@style/playlistTextView"
+            android:background="@drawable/backtextview"
+            android:text="@string/playlist_1"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/playlist_2"
+            style="@style/playlistTextView"
+            android:background="@drawable/backtextview"
+            android:text="@string/playlist_2"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/playlist_3"
+            style="@style/playlistTextView"
+            android:background="@drawable/backtextview"
+            android:text="@string/playlist_3"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/playlist_app_structure"
+            style="@style/descriptions"
+            android:background="@drawable/backtextview"
+            android:text="@string/description_playlist_structure"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

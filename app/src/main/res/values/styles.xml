@@ -1,0 +1,158 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+    <!-- Style for a category of vocabulary words -->
+    <style name="CustomActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:titleTextStyle">@style/CustomTextColor</item>
+
+    </style>
+
+    <style name="CustomTextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="buttons" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/buttonMargin</item>
+        <item name="android:layout_marginRight">@dimen/buttonMargin</item>
+        <item name="android:layout_marginTop">@dimen/buttonSpacing</item>
+        <item name="android:layout_marginBottom">@dimen/buttonMarginBottom</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="descriptions" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/textPadding</item>
+        <item name="android:layout_marginLeft">@dimen/textMargin</item>
+        <item name="android:layout_marginRight">@dimen/textMargin</item>
+        <item name="android:layout_marginTop">@dimen/textSpacing</item>
+        <item name="android:layout_marginBottom">@dimen/textMarginBottom</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+
+    </style>
+
+    <!-- Discover Teams TextView. -->
+    <style name="teamsTextView" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/padding_12dp</item>
+        <item name="android:paddingTop">@dimen/padding_12dp</item>
+        <item name="android:textSize">@dimen/teams_text_size</item>
+
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <!-- Discover Search EditText. -->
+    <style name="searchEditText" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColorHint">@color/colorGreyLight</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/teams_text_size</item>
+        <item name="android:paddingBottom">@dimen/padding_12dp</item>
+        <item name="android:paddingTop">@dimen/padding_12dp</item>
+        <item name="android:layout_marginLeft">@dimen/textMargin</item>
+        <item name="android:layout_marginRight">@dimen/textMargin</item>
+
+
+    </style>
+    <!-- Divider. -->
+    <style name="divider" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:layout_marginLeft">@dimen/padding_12dp</item>
+        <item name="android:layout_marginRight">@dimen/padding_12dp</item>
+        <item name="android:layout_marginBottom">@dimen/padding_12dp</item>
+    </style>
+
+    <!-- Horizontal View Gallery. -->
+    <style name="horizontalScroll" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fillViewport">true</item>
+        <item name="android:paddingBottom">@dimen/padding_12dp</item>
+    </style>
+
+    <!-- Teams Logo ImageView. -->
+    <style name="teams_logo_image" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_12dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- Playlist TextView. -->
+    <style name="playlistTextView" parent="AppTheme">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/padding_playlist</item>
+        <item name="android:paddingTop">@dimen/padding_playlist</item>
+        <item name="android:paddingLeft">@dimen/padding_playlist</item>
+        <item name="android:paddingRight">@dimen/padding_playlist</item>
+        <item name="android:layout_marginLeft">@dimen/margin_playlist_sides</item>
+        <item name="android:layout_marginRight">@dimen/margin_playlist_sides</item>
+        <item name="android:textSize">@dimen/playlist_text_size</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/padding_12dp</item>
+        <item name="android:layout_marginTop">@dimen/padding_12dp</item>
+    </style>
+
+    <!-- NowPlaying Section -->
+    <style name="songImage" parent="AppTheme">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">@dimen/song_image</item>
+    </style>
+
+    <!-- Song Name TextView. -->
+    <style name="songTextView" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+
+        <item name="android:padding">@dimen/padding_10dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/song_name_size</item>
+    </style>
+
+    <!-- Song Time TextView. -->
+    <style name="songTime" parent="AppTheme">
+
+    </style>
+
+    <!-- Seek Bar. -->
+    <style name="seekBar" parent="AppTheme">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:padding">@dimen/padding</item>
+
+    </style>
+
+    <!-- LinearLayout sub Activities -->
+
+</resources>

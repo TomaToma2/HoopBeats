@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_discover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.android.hoopsmusic.DiscoverActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/main_description"
+            style="@style/descriptions"
+            android:background="@drawable/backtextview"
+            android:text="@string/description_discover"
+            android:textAllCaps="false" />
+
+        <TextView
+            style="@style/teamsTextView"
+            android:text="@string/basketball_teams" />
+
+        <View style="@style/divider" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewTeams"
+            style="@style/horizontalScroll">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/team_1"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_teams"
+                    android:src="@drawable/chicago_bulls_logo" />
+
+                <ImageView
+                    android:id="@+id/team_2"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_teams"
+                    android:src="@drawable/gsw_logo" />
+
+                <ImageView
+                    android:id="@+id/team_3"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_teams"
+                    android:src="@drawable/ny_knicks_logo" />
+
+                <ImageView
+                    android:id="@+id/team_4"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_teams"
+                    android:src="@drawable/cavs_logo" />
+
+                <ImageView
+                    android:id="@+id/team_5"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_teams"
+                    android:src="@drawable/la_lakers_logo" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            style="@style/teamsTextView"
+            android:text="@string/basketball_players" />
+
+        <View style="@style/divider" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewPlayers"
+            style="@style/horizontalScroll">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/player_1"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_players"
+                    android:src="@drawable/durant" />
+
+                <ImageView
+                    android:id="@+id/player_2"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_players"
+                    android:src="@drawable/lebrone" />
+
+                <ImageView
+                    android:id="@+id/player_3"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_players"
+                    android:src="@drawable/porzo" />
+
+                <ImageView
+                    android:id="@+id/player_4"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_players"
+                    android:src="@drawable/rondo" />
+
+                <ImageView
+                    android:id="@+id/player_5"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_players"
+                    android:src="@drawable/wade" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            style="@style/teamsTextView"
+            android:text="@string/music_artist" />
+
+        <View style="@style/divider" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollViewArtists"
+            style="@style/horizontalScroll">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/artist_1"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_artists"
+                    android:src="@drawable/beastie" />
+
+                <ImageView
+                    android:id="@+id/artist_2"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_artists"
+                    android:src="@drawable/east" />
+
+                <ImageView
+                    android:id="@+id/artist_3"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_artists"
+                    android:src="@drawable/kedrick" />
+
+                <ImageView
+                    android:id="@+id/artist_4"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_artists"
+                    android:src="@drawable/wayne" />
+
+                <ImageView
+                    android:id="@+id/artist_5"
+                    style="@style/teams_logo_image"
+                    android:contentDescription="@string/contentDescription_artists"
+                    android:src="@drawable/redhot" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+        <EditText
+            style="@style/searchEditText"
+            android:hint="@string/search_edit_text"
+        android:background="@drawable/backtextview"/>
+        <TextView
+            android:id="@+id/discover_app_structure"
+            style="@style/descriptions"
+            android:background="@drawable/backtextview"
+            android:text="@string/description_discover_structure"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

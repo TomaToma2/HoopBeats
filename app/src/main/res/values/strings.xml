@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Hoop Beats Home</string>
+
+
+    <string name="button_discover">Discover</string>
+    <string name="button_playlist">Playlist</string>
+    <string name="button_now_playing">Now Playing</string>
+    <string name="button_radio">Radio</string>
+    <string name="description_main">Music is an essential part of basketball. \nHoop Beats helps You to control beats off the court.</string>
+    <string name="description_main_structure">Hoop Beats Home. Its a main screen of the Hoop Beats App. It contains four activities(blocks).
+    \nEach Buttos navigate to each Section of the App. Buttons sends explicit intents to Discover Section, Playlists, Now Playing and Radio.</string>
+
+
+    <string name="section_discover">Hoop Beats Discover</string>
+    <string name="section_playlist">Hoop Beats Playlist</string>
+    <string name="section_now_playing">Hoop Beats Now Playing</string>
+    <string name="section_radio">Hoop Beats Radio</string>
+
+
+    // strings connected to discover section
+    <string name="description_discover">Choose your favourite basketball \nteam, player or music artist</string>
+    <string name="basketball_teams">Teams</string>
+    <string name="basketball_players">Players</string>
+    <string name="music_artist">Music Artists</string>
+    <string name="search_edit_text">Search for a Team, Player or Artist</string>
+    <string name="description_discover_structure">Hoop Beats Discover Section contains genre categories of selection.
+    \nAll three categories (Teams, Players, Artist) are build of a horizontal Scroll Views.
+    \nThey contain ImageView Gallery of each of genre. By clicking on first ImageView it should send an Implicit Intent to cloud library(SoundCloud)
+    \nLibraries should be defined and filtered by specific algorhytm. Sort music by to artist, players and team.
+    Notice!: As You Click First each Icon of Category, it sends intent to Now Playing Screen.
+    \n Discover Section also contains Search Window At the bootom. It should make possible to find content in soundCloud Libraries.</string>
+
+    <string name="contentDescription_teams">Sample of an teams logo.</string>
+    <string name="contentDescription_players">Sample of an players photo.</string>
+    <string name="contentDescription_artists">Sample of an artist photo.</string>
+
+
+    // strings connected to playlist section
+    <string name="description_playlist">Costumize Yours Favourite \nHoop Beats</string>
+    <string name="playlist_add">+ Add New Beat</string>
+    <string name="playlist_1">Before Game Beats </string>
+    <string name="playlist_2">After Game Beats </string>
+    <string name="playlist_3">Practice Beats</string>
+    <string name="description_playlist_structure">Playlist Section contains Three Blocks of recommended content.
+        \nEach of them on specific routine/mood connected to basketball game. Each Button should send an intent to external soundcloud library.
+        \nFourth Button should allow to add yours new collection of Hoop Beats based on SoundCloud.
+        \nNotice!:As u click on the button, it navigates You to Now Playing Section. Add New Beat Button generates a Toast message.</string>
+
+
+    // strings connected to Now Playing section
+    <string name="contentDescription_albums">Sample Image For Song</string>
+    <string name="song_shortcut">Song Name\nArtist Name</string>
+
+    <string name="songTimeStart">0:00</string>
+    <string name="songTimeEnd">12:51</string>
+    <string name="homeButton">Home</string>
+    <string name="description_now_playing_structure">Now Playing Block contains ImageView and TextView of current playing song and artist.
+    \nfrom soundcloud Library. It also contains Seek Bar which should show time progress of played song.
+    \nThere are Three ImageViews which should be responsible for Previous, Play(Pause), and Next Song Actions in Music Player.
+    \nEach ImageView generates Toast Message of Action.
+    \nAt the Bottom of Screen We have Home Button which navigates you back to Hoop Beats Home Screen.</string>
+
+
+    // strings connected to Radio Section
+    <string name="description_radio">Choose Your Radio</string>
+    <string name="recommended_radio">Recommended Radio Stations</string>
+    <string name="contentDescription_radio">Sample Image For Radio</string>
+
+    <string name="description_radio_structure">Radio Block should use SoundCloud Libraries to navigate u to
+    \nRadio Podcasts connected to basketball topics. Its build of Horizontal ScrollView containing list of radio.
+    \nIt also should be able to use Action ImageViews like Play, Previous and Next.
+    \nUsing Home Button You can nagigate Yourself back to Hoop Beats Home Section.</string>
+    <string name="radioTimeStart">0:00:00</string>
+    <string name="radioTimeEnd">1:14:12</string>
+
+
+</resources>
