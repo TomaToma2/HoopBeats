@@ -8,19 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:actionBarStyle">@style/CustomActionBar</item>
     </style>
-    <!-- Style for a category of vocabulary words -->
+
+    <!-- Style for a CustomActionBar -->
     <style name="CustomActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">@color/colorPrimaryDark</item>
         <item name="android:titleTextStyle">@style/CustomTextColor</item>
-
     </style>
-
+    <!-- Style for a CustomText in CustomActionBar -->
     <style name="CustomTextColor" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">@color/colorText</item>
         <item name="android:textStyle">bold</item>
-
     </style>
-
+    <!-- Style for a Buttons -->
     <style name="buttons" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -30,7 +29,7 @@
         <item name="android:layout_marginBottom">@dimen/buttonMarginBottom</item>
         <item name="android:textColor">@color/colorWhite</item>
     </style>
-
+    <!-- Style for a descriptions textView-->
     <style name="descriptions" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -41,8 +40,6 @@
         <item name="android:layout_marginTop">@dimen/textSpacing</item>
         <item name="android:layout_marginBottom">@dimen/textMarginBottom</item>
         <item name="android:textColor">@color/colorWhite</item>
-
-
     </style>
 
     <!-- Discover Teams TextView. -->
@@ -52,11 +49,11 @@
         <item name="android:paddingBottom">@dimen/padding_12dp</item>
         <item name="android:paddingTop">@dimen/padding_12dp</item>
         <item name="android:textSize">@dimen/teams_text_size</item>
-
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
+
     <!-- Discover Search EditText. -->
     <style name="searchEditText" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
@@ -70,9 +67,8 @@
         <item name="android:paddingTop">@dimen/padding_12dp</item>
         <item name="android:layout_marginLeft">@dimen/textMargin</item>
         <item name="android:layout_marginRight">@dimen/textMargin</item>
-
-
     </style>
+
     <!-- Divider. -->
     <style name="divider" parent="AppTheme">
         <item name="android:layout_width">match_parent</item>
@@ -101,7 +97,6 @@
 
     <!-- Playlist TextView. -->
     <style name="playlistTextView" parent="AppTheme">
-
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:paddingBottom">@dimen/padding_playlist</item>
@@ -120,7 +115,6 @@
 
     <!-- NowPlaying Section -->
     <style name="songImage" parent="AppTheme">
-
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
@@ -131,9 +125,6 @@
     <style name="songTextView" parent="AppTheme">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-
-
-
         <item name="android:padding">@dimen/padding_10dp</item>
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:textSize">@dimen/song_name_size</item>
@@ -150,7 +141,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:padding">@dimen/padding</item>
-
     </style>
 
     <!-- LinearLayout sub Activities -->

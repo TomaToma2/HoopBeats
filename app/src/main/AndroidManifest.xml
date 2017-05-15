@@ -22,7 +22,6 @@
         <activity
             android:name=".PlaylistActivity"
             android:label="@string/section_playlist" />
-
         <activity
             android:name=".RadioActivity"
             android:label="@string/section_radio" />

@@ -3,23 +3,19 @@
 
 
 <resources>
-
+    <!-- Buttons. -->
     <dimen name="margin_36dp">6dp</dimen>
-
-
-
     <dimen name="buttonSpacing">24dp</dimen>
     <dimen name="buttonMarginBottom">12dp</dimen>
     <dimen name="buttonMargin">64dp</dimen>
 
-
+    <!-- Discover Teams TextView. -->
     <dimen name="textMargin">12dp</dimen>
     <dimen name="textSpacing">24dp</dimen>
     <dimen name="textPadding">6dp</dimen>
     <dimen name="textMarginBottom">12dp</dimen>
 
     <!-- Discover Teams TextView. -->
-
     <dimen name="teams_text_size">18sp</dimen>
     <dimen name="padding_12dp">18dp</dimen>
 
@@ -27,12 +23,9 @@
     <dimen name="divider_height">2sp</dimen>
 
     <!-- Playlist TextView. -->
-
     <dimen name="playlist_text_size">16sp</dimen>
     <dimen name="padding_playlist">18dp</dimen>
     <dimen name="margin_playlist_sides">48dp</dimen>
-
-
 
     <!-- Now Playing TextView. -->
     <dimen name="song_image">36dp</dimen>
@@ -43,10 +36,8 @@
     <!-- Now Playing SongTime TextView. -->
     <dimen name="activity_margin">24dp</dimen>
 
-
     <!-- Now Playing Seek Bar. -->
     <dimen name="padding">12dp</dimen>
     <dimen name="padding_6dp">6dp</dimen>
-
 
 </resources>

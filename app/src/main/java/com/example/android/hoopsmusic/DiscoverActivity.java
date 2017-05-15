@@ -66,7 +66,6 @@ public class DiscoverActivity extends Activity {
                 startActivity(artist1MusicIntent);
 
 
-
             }
         });
     }

@@ -44,7 +44,8 @@ public class NowPlayingActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Previous", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Previous", Toast.LENGTH_LONG).show();
+            }
         });
 
         // Finds the View that shows Play Button
@@ -58,7 +59,8 @@ public class NowPlayingActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Play", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Play", Toast.LENGTH_LONG).show();
+            }
         });
 
         // Finds the View that shows Next Button
@@ -72,9 +74,9 @@ public class NowPlayingActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Next", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Next", Toast.LENGTH_LONG).show();
+            }
         });
-
 
 
     }

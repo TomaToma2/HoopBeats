@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 
-    xmlns:app="http://schemas.android.com/apk/res-auto"
 
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_discover"
@@ -41,37 +40,37 @@
                 <ImageView
                     android:id="@+id/radio_1"
                     style="@style/teams_logo_image"
+                    android:alpha=".68"
                     android:contentDescription="@string/contentDescription_radio"
-                    android:src="@drawable/radio_station"
-                    android:alpha=".68"/>
+                    android:src="@drawable/radio_station" />
 
                 <ImageView
                     android:id="@+id/radio_2"
                     style="@style/teams_logo_image"
+                    android:alpha=".68"
                     android:contentDescription="@string/contentDescription_radio"
-                    android:src="@drawable/radio_station"
-                    android:alpha=".68"/>
+                    android:src="@drawable/radio_station" />
 
                 <ImageView
                     android:id="@+id/radio_3"
                     style="@style/teams_logo_image"
+                    android:alpha=".68"
                     android:contentDescription="@string/contentDescription_radio"
-                    android:src="@drawable/radio_station"
-                    android:alpha=".68"/>
+                    android:src="@drawable/radio_station" />
 
                 <ImageView
                     android:id="@+id/radio_4"
                     style="@style/teams_logo_image"
+                    android:alpha=".68"
                     android:contentDescription="@string/contentDescription_radio"
-                    android:src="@drawable/radio_station"
-                    android:alpha=".68"/>
+                    android:src="@drawable/radio_station" />
 
                 <ImageView
                     android:id="@+id/radio_5"
                     style="@style/teams_logo_image"
+                    android:alpha=".68"
                     android:contentDescription="@string/contentDescription_radio"
-                    android:src="@drawable/radio_station"
-                    android:alpha=".68"/>
+                    android:src="@drawable/radio_station" />
 
             </LinearLayout>
 
@@ -125,7 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-
+                android:contentDescription="@string/contentDescriptionPreviousButton"
                 android:padding="@dimen/padding_6dp"
 
                 android:src="@drawable/back" />
@@ -135,18 +134,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:contentDescription="@string/contentDescriptionPlayButton"
                 android:padding="@dimen/padding_6dp"
                 android:src="@drawable/playbutton_64" />
-
 
             <ImageView
                 android:id="@+id/next_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:contentDescription="@string/contentDescriptionNextButton"
                 android:padding="@dimen/padding_6dp"
                 android:src="@drawable/next" />
-
 
         </LinearLayout>
 

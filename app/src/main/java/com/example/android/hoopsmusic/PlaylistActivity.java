@@ -78,10 +78,9 @@ public class PlaylistActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "New Beat Added", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "New Beat Added", Toast.LENGTH_LONG).show();
+            }
         });
-
-
 
 
     }

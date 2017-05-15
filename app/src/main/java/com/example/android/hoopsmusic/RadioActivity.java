@@ -45,7 +45,8 @@ public class RadioActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Radio One", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Radio One", Toast.LENGTH_LONG).show();
+            }
         });
 
         // Finds the View that shows Radio Two Station
@@ -59,7 +60,8 @@ public class RadioActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Radio Two", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Radio Two", Toast.LENGTH_LONG).show();
+            }
         });
         // Finds the View that shows Radio Three Station
         ImageView radioThree = (ImageView) findViewById(R.id.radio_3);
@@ -72,7 +74,8 @@ public class RadioActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Radio Three", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Radio Three", Toast.LENGTH_LONG).show();
+            }
         });
 
         // Finds the View that shows Radio Four Station
@@ -86,7 +89,8 @@ public class RadioActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Radio Four", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Radio Four", Toast.LENGTH_LONG).show();
+            }
         });
         // Finds the View that shows Radio Five Station
         ImageView radioFive = (ImageView) findViewById(R.id.radio_5);
@@ -99,7 +103,8 @@ public class RadioActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Radio Five", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Radio Five", Toast.LENGTH_LONG).show();
+            }
         });
 
         // Finds the View that shows Previous Button
@@ -113,7 +118,8 @@ public class RadioActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Previous", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Previous", Toast.LENGTH_LONG).show();
+            }
         });
 
         // Finds the View that shows Play Button
@@ -127,7 +133,8 @@ public class RadioActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Play", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Play", Toast.LENGTH_LONG).show();
+            }
         });
 
         // Finds the View that shows Next Button
@@ -141,7 +148,8 @@ public class RadioActivity extends Activity {
             public void onClick(View view) {
 
                 //Creates a Toast
-                Toast.makeText(view.getContext(), "Next", Toast.LENGTH_LONG).show();}
+                Toast.makeText(view.getContext(), "Next", Toast.LENGTH_LONG).show();
+            }
         });
     }
 }
