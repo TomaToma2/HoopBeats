@@ -33,7 +33,8 @@ public class NowPlayingActivity extends Activity {
             }
         });
 
-// Finds the View that shows Previous Button
+        // Finds the View that shows Previous Button
+
         ImageView previousButton = (ImageView) findViewById(R.id.previous_button);
 
         //sets click listener on that View

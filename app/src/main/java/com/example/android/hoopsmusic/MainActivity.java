@@ -13,7 +13,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         //Finds the view that shows Discover Section
 
         Button discover = (Button) findViewById(R.id.discover_button);
@@ -31,7 +30,6 @@ public class MainActivity extends Activity {
                 startActivity(discoverIntent);
             }
         });
-
 
         //Finds the view that shows Playlist Section
 
@@ -52,7 +50,6 @@ public class MainActivity extends Activity {
             }
         });
 
-
         //Finds the view that shows SearchSection
 
         Button nowplaying = (Button) findViewById(R.id.nowplaying_button);
@@ -72,7 +69,6 @@ public class MainActivity extends Activity {
                 startActivity(nowplayingIntent);
             }
         });
-
 
         //Finds the view that shows Radio Section
 
@@ -95,19 +91,3 @@ public class MainActivity extends Activity {
         });
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
